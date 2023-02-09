@@ -1,0 +1,90 @@
+*{
+    margin:auto;
+    padding: 0;
+        }
+
+body{
+            font-family: sans-serif;
+        background-color: #D2CEDC;
+
+    }
+h1{
+  background-color: white;
+  text-align: center;
+  font-weight: bolder;
+  height: 78px;
+
+}
+
+
+.app{
+            margin-top: 27px;
+            width: 375px;
+            height: 500px;
+            border:20px solid rgba(0, 0, 0, 0.353);
+            border-radius: 8px;
+            padding: 15px;
+            background-color:#F9F9F9;
+            align-items: center;
+            justify-content: center;
+            overflow-y:auto;
+
+        }
+
+
+        #form{
+            display: flex;
+            background-color:#F0F0EE;
+            align-items: center;
+            justify-content: space-between;
+            padding:5px 10px;
+            border-radius: 5px;
+
+        }
+        input{
+            display:block;
+            font-size:22px;
+        }
+
+        .fa-plus{
+            background-color: #A19EB3;
+            padding:3px;
+            border-radius: 3px;
+        }
+        #posts{
+            display: grid;
+            gap:14px;
+        }
+        #posts div{
+        background-color: #FFFFFF;
+        border:3px solid #A19EB3;
+        padding: 5px;
+        border-radius:6px;
+        display: grid;
+        gap:4px;
+        width: 347px;
+        height: 60px;
+
+        }
+        i{
+            cursor: pointer;
+        }
+
+    #msg{
+     color:#D0D4D5;
+    }
+
+    .btn{
+    background-color:#DBDBD9;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px #6d6d6c;
+    width: 67px;
+    padding: initial;
+    margin-right: -10px;
+
+    }
+    .btn:hover{
+        color:#3F3F3F ;
+    }

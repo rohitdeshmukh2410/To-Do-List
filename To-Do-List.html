@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List 2023</title>
+    <link rel ="stylesheet" href="t3style.css">
+</head>
+<body>
+<h1>ToDoList 2023</h1>
+<div class="app">
+    <div class="top">
+        <form id="form">
+            <br><br>
+            <div id="msg"></div>
+            <input type="text" placeholder="Enter here..." id="input">
+
+            <button class="btn" type="submit">upload</button>
+        </form>
+    </div>
+
+    <div class="bottom">
+        <br>
+        <h3>Task here</h3>
+        <hr><hr><br>
+        <div id="posts">
+            <div>
+                <p>Project-II</p>
+                <span class="options">
+<i onClick="editpost(this)" class="fa fa-pencil-square-o"></i>
+<i onClick="deletepost(this)" class="fa fa-trash-o"></i>
+</span>
+            </div>
+            <div>
+                <p>Gardening</p>
+                <span class="options">
+<i onClick="editpost(this)" class="fa fa-pencil-square-o"></i>
+<i onClick="deletepost(this)" class="fa fa-trash-o"></i>
+</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://kit.fontawesome.com/fb6ae49fc3.js" crossorigin="anonymous"></script>
+
+<script src="main.js"></script>
+</body>
+</html>
